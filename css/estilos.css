@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(161, 160, 160);
+    list-style: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-container{
+    display: flex;
+    list-style: none;
+
+
+} 
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    gap: 60px;
+}
+
+#busqueda{
+    display: flex;
+    width: 840px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloques{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(77, 76, 76);
+    width: 800px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-top: 20px;
+    gap: 5px;
+    padding: 9px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 880px;
+    border: 1px solid black;
+    margin-top: -375px;
+    gap: 5px;
+    padding: 9px;
+    width: 340px;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.btn{
+    display: flex;
+    background-color: rgb(86, 86, 255);
+    color: white;
+    padding: 7px;
+}
+
+.btn2{
+    display: flex;
+    width: 13%;
+    background-color: rgb(255, 255, 144);
+    padding: 5px;
+    border-radius: 7px;
+    padding-left: 10px;
+    gap: 3px;
+}
+
+
+
+.btn2_1{
+    display: flex;
+    width: 13%;
+    background-color: rgb(255, 255, 144);
+    padding: 5px;
+    border-radius: 7px;
+    padding-left: 10px;
+    gap: 3px;
+}
+
+.btn3{
+    background-color: green;
+    color: white;
+    width: 60%;
+    padding: 7px;
+}
